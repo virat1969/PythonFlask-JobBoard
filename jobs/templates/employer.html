@@ -23,6 +23,7 @@
              <strong>{{ review['title'] }}</strong>
              <small>{{ review['status'] }}</small>
              <small>{{ review['date'] }}</small>
+             <small>{{ review['rating'] }}</small>
               {{ review['review'] }}
             </p>
           </div>
@@ -30,7 +31,6 @@
       </article>
     </div>
     {% endfor %}
-
   <div class="columns">
     <div class="column">
       <a class="button is-info is-pulled-right">Create Review</a>
